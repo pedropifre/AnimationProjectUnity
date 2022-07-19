@@ -20,7 +20,7 @@ public class ButtonScaler : MonoBehaviour, IPointerEnterHandler,IPointerExitHand
     private void Awake()
     {
         _defaulScale = transform.localScale;
-        textoSair.text = "";
+        
     }
      //dsad
     public void OnPointerEnter(PointerEventData eventData)
